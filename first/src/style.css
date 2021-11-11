@@ -14,31 +14,59 @@ html{
     padding: 0;
 }
 
+.display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header .nav a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin: 0 5px;
+    padding: 30px;
+}
+
+
 header{
 
     background-color: gray;
-    padding: 20px;
-    display: flex;
 }
 
 header.logo{
 
     font-size: 25px;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
 }
 
-header.nav{
-    
-}
 
 .Hero{
     background-color: whitesmoke;
-    padding: 10em;
+    padding: 25px;
+    height: 70vh;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 footer{
     background-color: black;
     color: white;
-    padding: 10em;
+    padding: 6em;
     text-align: center;
 }

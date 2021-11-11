@@ -2,9 +2,9 @@ import React from 'react'
 
 function Headers(){
   return(
-    <header>
-      <div className="logo">Logo</div>
-      <ul className="nav">
+    <header className="diplay-flex">
+      <div className="logo">header</div>
+      <ul className="nav display-flex">
         <li>
           <a href="">Home</a>
         </li>
