@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Section(){
-  return <div> Search vannee!!!</div>
+  return <div  className="Hero"> Search vannee!!!</div>
 
 }
 
