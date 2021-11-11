@@ -48,6 +48,7 @@ header.logo{
     color: white;
     padding: 10px;
     border-radius: 5px;
+    font-weight: bolder;
 
 }
 
@@ -69,4 +70,25 @@ footer{
     color: white;
     padding: 6em;
     text-align: center;
+}
+
+header.dayMode{
+    background-color: orange;
+}
+
+header.nightMode{
+    background-color: black;
+}
+
+.card{
+    margin: 20px;
+    border: 2px solid gray;
+    margin-bottom: 12px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 12px;
 }
