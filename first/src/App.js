@@ -10,9 +10,6 @@ import cardData from "./components/CardData";
 /* ----------------------------------- CSS ---------------------------------- */
 import "./style.css";
 
-
-
-
 /* -------------------------------- Main App -------------------------------- */
 function App() {
  
@@ -20,7 +17,6 @@ function App() {
     return (
       <Card 
         cardContent={{
-          
           imgSrc:cardItem.imgSrc,
           name:cardItem.name,
           email:cardItem.email
@@ -33,7 +29,7 @@ function App() {
     <>
   <Header/>
   <Section/>
-  {card}
+  <div className="card-container">{card}</div>
   <Footer/>
     </>
   )
