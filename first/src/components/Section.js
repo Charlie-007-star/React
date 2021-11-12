@@ -4,7 +4,9 @@ function Section(){
 
   let welcomeMessage = "Welcome to the website"
   let mode = "Good morning"
+  
   let styles = {
+
     color:'red',
     backgroundColor:'black',
     fontSize:76

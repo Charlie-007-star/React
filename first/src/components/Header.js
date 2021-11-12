@@ -7,9 +7,11 @@ let mode;
 if(hours > 18){
 
     mode = "nightMode" 
+
 }else if(hours < 20){
 
   mode = "dayMode"
+  
 }
 
 
