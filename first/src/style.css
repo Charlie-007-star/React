@@ -28,7 +28,7 @@ ul{
 }
 
 header .nav a{
-    text-decoration: none;
+    font-size: large;
     color: #000;
     display: block;
     margin: 0 5px;
@@ -38,12 +38,12 @@ header .nav a{
 
 header{
 
-    background-color: gray;
+    background-color: black;
 }
 
 header.logo{
 
-    font-size: 25px;
+    font-size: 40px;
     background: black;
     color: white;
     padding: 10px;
@@ -54,7 +54,7 @@ header.logo{
 
 
 .Hero{
-    background-color: whitesmoke;
+    background-color: white;
     padding: 25px;
     height: 70vh;
     text-align: center;
@@ -68,16 +68,16 @@ header.logo{
 footer{
     background-color: black;
     color: white;
-    padding: 6em;
+    padding: 4em;
     text-align: center;
 }
 
 header.dayMode{
-    background-color: orange;
+    background-color: blue;
 }
 
 header.nightMode{
-    background-color: black;
+    background-color: rgb(68, 68, 68);
 }
 
 .card-container{
@@ -86,12 +86,12 @@ header.nightMode{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 
 .card{
     margin: 20px;
-    border: 2px solid gray;
+    border: 2px solid rgb(0, 0, 0);
     margin-bottom: 12px;
 }
 
@@ -100,4 +100,17 @@ header.nightMode{
     height: 200px;
     border-radius: 10px;
     margin-bottom: 12px;
+}
+
+.button{
+
+    color: rgb(246, 246, 246);
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    
 }
