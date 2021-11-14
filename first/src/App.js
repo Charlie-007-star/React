@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 /* ------------------------------- Components ------------------------------- */
 import Header from "./components/Header"
@@ -9,9 +9,20 @@ import cardData from "./components/CardData";
 
 /* ----------------------------------- CSS ---------------------------------- */
 import "./style.css";
+
 /* -------------------------------- Main App -------------------------------- */
 function App() {
+
+  let [favImages, setFavImages] = useState([])
+
+  
+
+  function getFavImages(imgSrc){
+
+    
+  }
  
+
   let card = cardData.map((cardItem)=>{
     return (
       <Card 
@@ -20,6 +31,9 @@ function App() {
           name:cardItem.name,
           email:cardItem.email
       }}
+      getFavImages = {
+         getFavImages 
+      }
       />
     )
   })
@@ -28,7 +42,11 @@ function App() {
     <>
   <Header/>
   <Section/>
-  <div className="card-container">{card}</div>
+  <div className="card-container">{card}
+  <aside><h2>Favorites</h2>
+  <img src={favImages}  className="Img"/>
+  </aside>
+  </div>
   <Footer/>
     </>
   )

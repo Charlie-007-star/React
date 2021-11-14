@@ -136,3 +136,9 @@ header.nightMode{
     opacity: 1;
     transform: translateY(0%);
 }
+
+.Img{
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+}
