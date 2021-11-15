@@ -2,8 +2,8 @@ import React from 'react'
 
 function Section(){
 
-  let welcomeMessage = "Welcome to the website"
-  let mode = "Good morning"
+  let welcomeMessage = "AVENGERS :"
+  let mode = "MARVEL STUDIOUS"
   
   let styles = {
 

@@ -18,6 +18,7 @@ function Card(props) {
                props.getFavImages(imgSrc); 
                return "Added"
            }else{
+               props.removeFavImages(imgSrc);
                return "Add to Fav"
            }
         })
